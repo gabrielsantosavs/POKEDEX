@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lista-pokemon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+}
+h3{
+    margin: 40px;
+}
+ .pokemon{
+    background-color: #78c850;
+    border-radius: 10px;
+    img{
+        width: 40%;
+        display: flex;
+        justify-self: center;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 20px;
+    }
+ }
+
+.pokebola{
+    width: 300px;
+    display: flex;
+    justify-self: center;
+}
+  
+body{
+    background-color: rgb(3, 3, 99);
+}
+
+
+ .grass{background-color: #78c850;}
+ .fire{background-color: #f50830;}
+ .normal{background-color: #a8a878;}
+ .water{background-color: #6890f0;}
+ .electric{background-color: #f8d030;}
